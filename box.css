@@ -1,22 +1,122 @@
 .top_box{
 
 height: 20rem;
-background-color:#126bf1;
+background-color:#598ede;
 }
 
 .center_box{
-
     position: absolute;
     top: 120px;
-    left: 45%;
-    margin-top: 130px;
-    right: 50%;
-    width: 150px;
-    height: 200px;
-    background-color: rgb(25, 46, 87);
-border-radius: 10px;
+    left: 50%;
+    height: 20rem;
+    transform: translateX(-50%);
+    width: 280px;
+    background-color: #2d3e50;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
 
 }
+
+
+
+.profile_pic {
+    position: relative;
+    display: inline-block;
+  }
+
+  .profile_pic img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+  }
+  
+  .notification {
+    
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: red;
+        color: #fff;
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+  
+  
+.center_box h3 {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    color:#fff
+
+
+  }
+
+
+.username {
+    font-size: 1rem;
+    color: #2f83dc;
+    margin-bottom: 1rem;
+    text-align: center;
+
+  }
+
+
+
+  .follow_btn {
+    background: none;
+    border: solid #fff;
+    color: #fff;
+    padding: 0.9rem 1rem;
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+  }
+
+  .follow_btn:hover {
+    background-color: #fff;
+    color: #000000;
+  }
+
+
+
+
+  .details {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #126bf1;
+    color: #fff;
+    text-align: center;
+  }
+
+  
+  .details div {
+    font-size: 14px;
+  }
+  
+  .details span {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  
+
+.middle {
+    background-color: #2f83dc;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    color: #fff;
+}
+
 
 .down_box{
     height: 20rem;
@@ -25,18 +125,4 @@ background-color: rgb(255, 255, 255);
 
 }
 
-@media screen and (max-width: 768px) {
-    .top_box {
-      height: 15rem;
-    }
-  
-    .center_box {
-      width: 120px;
-      height: 160px;
-      top: 100px;
-    }
-  
-    .down_box {
-      min-height: 15rem;
-    }
-  }
+

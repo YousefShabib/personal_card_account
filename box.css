@@ -6,16 +6,17 @@ background-color:#598ede;
 
 .center_box{
     position: absolute;
+    padding-block: 2rem;
     top: 120px;
     left: 50%;
-    height: 20rem;
+    height: 23rem;
     transform: translateX(-50%);
     width: 280px;
     background-color: #2d3e50;
-    padding: 1rem;
     border-radius: 10px;
     text-align: center;
     color: #fff;
+
 
 }
 
@@ -71,13 +72,17 @@ background-color:#598ede;
 
 
   .follow_btn {
+    width: 50%;
     background: none;
     border: solid #fff;
     color: #fff;
     padding: 0.9rem 1rem;
     font-size: 0.9rem;
     margin-top: 0.8rem;
-  }
+    border-radius: 6px;
+    margin-top: 1.5rem;
+
+}
 
   .follow_btn:hover {
     background-color: #fff;
@@ -85,36 +90,53 @@ background-color:#598ede;
   }
 
 
+.container{
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
 
   .details {
     display: flex;
-    width: 100%;
     flex-direction: row;
     justify-content: space-around;
     background-color: #126bf1;
     color: #fff;
     text-align: center;
+    gap: 1rem;
+    border-radius: 6px;
   }
 
   
-  .details div {
-    font-size: 14px;
+  .details {
+    font-size: 12px;
   }
   
   .details span {
     display: block;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
   }
 
   
 
+
+.row1{
+    display: flex;
+    padding-block: 0.6rem;
+
+    gap: 2rem;
+    flex-direction: column;
+}
+
 .middle {
     background-color: #2f83dc;
-    padding: 0.5rem 1rem;
-    font-weight: bold;
     color: #fff;
+    padding-inline: 0.6rem;
 }
 
 

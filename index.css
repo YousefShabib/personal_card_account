@@ -1,0 +1,152 @@
+.top_box {
+  height: 20rem;
+  background-color: #598ede;
+}
+
+.center_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 340px;
+  margin: auto;
+  margin-top: -5rem;
+  background-color: #2d3e50;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  padding: 2rem 1rem;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.profile_pic {
+  position: relative;
+  display: inline-block;
+}
+
+.profile_pic img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.notification {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center_box h3 {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.username {
+  font-size: 1rem;
+  color: #2f83dc;
+  margin-bottom: 1rem;
+  margin-top: -0.4rem;
+    margin-bottom: 0rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  background-color: #126bf1;
+  color: #fff;
+  text-align: center;
+  gap: 1rem;
+  border-radius: 6px;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+.details span {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.details {
+  font-size: 12px;
+}
+
+.row1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  flex: 1;
+}
+
+.middle {
+  background-color: #00a0dbaa;
+  color: #fff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.follow_btn {
+  width: 60%;
+  background: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 0.8rem 1rem;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.follow_btn:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.down_box {
+  height: 20rem;
+  background-color: #ffffff;
+}
+
+@media (max-width: 400px) {
+  .center_box {
+      width: 90%;
+  }
+
+  .follow_btn {
+      width: 80%;
+  }
+
+  .row1 {
+      width: 100%;
+      padding: 0.8rem;
+      flex: 1;
+      min-width: 0;
+  }
+}
